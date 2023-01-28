@@ -1,0 +1,157 @@
+.container{
+    width: 115rem;
+    background-color: aliceblue;
+    margin: 3rem auto;
+    height: 25rem;
+
+}
+.header{
+    height: 23rem;
+    /*background-color: rgb(187, 181, 181);*/
+    background-image: url(/image/Header-bg.jpg) ;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid var(--colour-grey-dark);
+    background-size: 100%;
+
+}
+
+.header-title-1, .header-title-2, .date, p{
+    text-align: center;
+    color: white;
+}
+p{
+    font-weight: bolder;
+}
+.date{
+    color: darkblue;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.content{
+    display: flex;
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    align-self: stretch;
+      
+}
+/*********************************************************
+*  NAVBAR  */
+.navbar li{
+    display: inline;
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 1.1rem;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+
+}
+.navbar li a:hover{
+    color: black;
+ 
+}
+
+.navbar li a:focus{
+    color: yellowgreen;
+}
+.main-page{
+    background-color: rgb(255, 255, 255);
+    flex:3;
+    
+}
+
+.detail__heading h1{
+    color: black;
+    padding: 3rem;
+}
+
+.detail__heading p{
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    line-height: 25spx;
+    width: 90%;
+    padding: 1rem;
+    clear: right;
+
+    
+}
+
+/************************************************************
+* Keynote   */
+.keynote{
+
+    background-color: var(--colour-blue-light-2);
+}
+
+.keynote h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 3rem;
+
+}
+
+/******************************************************************8
+*  SIDEBAR  */
+.sidebar{
+    background-color: var(--colour-grey-light);
+    flex: 1;
+   
+}
+
+.sidebar .update h2{
+    padding: 5px;
+    color: aliceblue;
+    background-color: var(--colour-grey-dark);
+    text-align: center;
+}
+.conference, .update {
+    margin: 30px;
+    width: 290px;
+    height: 290px;
+    padding: 30px;
+    border: 4px solid black;
+    
+}
+.sidebar .conference h2{
+    padding: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: var(--colour-grey-dark);
+    text-align: center;
+}
+.sidebar .conference p{
+    font-size: 12px;
+}
+.footer{
+    background-color: lightblue;
+}
+
+/*******************************************************************************
+* Publication  */
+.publication{
+   background-color: aliceblue;
+    
+}
+
+/************************************************************************
+*  Media Responsive  */
+@media(max-width: 55rem) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    }

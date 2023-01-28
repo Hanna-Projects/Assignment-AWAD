@@ -1,0 +1,31 @@
+:root{
+    --colour-primary: rgb(0, 125, 190);
+    --colour-primary-dark: rgb(0, 88, 138);
+    --colour-blue-light-1: rgb(0, 171, 189);
+    --colour-blue-light-2: rgb(84, 198, 211);
+    --colour-blue-light-2: rgb(0, 183, 199);
+    --colour-grey-dark: rgb(35, 31, 32);
+    --colour-grey-light: rgb(99, 100, 102);
+    --colour-footer: rgb(167, 169, 172);
+}
+
+*,
+*::before,
+*::after
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 75%;
+    /*default browser font-size is 10px*/
+}
+body{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+   background-color: rgb(107, 184, 219);
+    min-height: 100vh;
+}

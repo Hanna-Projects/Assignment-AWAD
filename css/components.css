@@ -1,0 +1,115 @@
+/********************************************************
+    LOGO  */
+
+.logo{
+    height: 6rem;
+
+}
+
+/*********************************************************
+   SEARCH  ***/
+.search{
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search__input{
+    font-family: inherit;
+    font-size: inherit;
+
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    width: 90%;
+    transition: all .3s;
+
+    margin-right: -2rem;
+
+}
+.search__input:focus{
+    width: 100%;
+    outline: 2px solid lightgray;
+}
+.search__button{
+    border: none;
+    cursor: pointer;
+}
+.search__button:active{
+    transform: translateY(3px);
+}
+
+
+/*****************************************************************
+*   GALLERY  */
+.gallery-photo{
+    width: 50%;
+ 
+}
+
+
+
+/*******************************************************************
+*  DECORATIVE LINE  */
+.line-1 {
+    height: 1px;
+    background: black;
+    width: 55%;
+  }
+
+  .line-2{
+    height: 8px;
+    background: black;
+   
+  }
+  .line-3{
+ 
+
+  }
+/*************************************************************
+* PICTURE OF MEMEBERS  */
+  .picture{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+  }
+  .Member-pic{
+    width: 100px;
+    height: 100px;
+    margin: 0px 10px 30px 20px;
+    border: 3px solid #555;
+    border-radius: 30%;
+    
+    
+}
+
+/********************************************************
+*    Pagination links */
+
+.pagination{
+  display: inline-block;
+  
+
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+  }
+  
+  /* Style the active/current link */
+  .pagination a.active {
+    background-color: var(--colour-primary);
+    color: white;
+  }
+  
+  /* Add a light blue background color on mouse-over */
+  .pagination a:hover:not(.active) {
+    background-color: rgb(108, 210, 241);}
+  
