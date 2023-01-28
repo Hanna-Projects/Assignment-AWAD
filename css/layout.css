@@ -143,9 +143,71 @@ p{
 * Publication  */
 .publication{
    background-color: aliceblue;
+   
     
 }
+.publication h1{
+    text-align: center;
+    padding: 30px;
 
+}
+
+/**********************************************************************
+*  Information where the videos are found  */
+.information{
+    background-color: var(--colour-grey-light);
+}
+
+
+
+/*******************************************************************88
+******************************************************************************
+**** LOGIN page *****/
+.sign-in{
+    background-color: antiquewhite;
+}
+
+/**************************************************************88
+**** Container****/
+.container-2{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 15px 15px 20px black;
+   
+}
+/************************************************************88
+** Login form **/
+
+.form h2{
+    font-size: 3rem;
+    margin: 40px;
+}
+.sign-up{
+    font-size: 18px;
+    
+}
+.sign-up a:hover{
+    color: lightgreen;
+}
+
+/******************************************************************88
+**** Right side picture ***/
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: blue;
+}
+
+.side img{
+    width: 450px;
+    height: 450px;
+}
 /************************************************************************
 *  Media Responsive  */
 @media(max-width: 55rem) {
