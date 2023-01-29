@@ -115,7 +115,10 @@ p{
 .keynote p{
     font-size: 16px;
     padding: 1rem;
+    color: darkgrey;
+
 }
+
 
 /******************************************************************8
 *  SIDEBAR  */
