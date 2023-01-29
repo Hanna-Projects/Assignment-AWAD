@@ -196,11 +196,11 @@ p{
 }
 
 .sidebar-travel{
-    background-color: red;
-   flex: 0 0 10%;
+    background-color: var(--colour-blue-light-1);
+   flex: 0 0 20%;
 }
 .travel-details{
-    background-color: blue;
+    background-color: rgb(252, 252, 252);
     flex: 1;
 }
 /*******************************************************************88

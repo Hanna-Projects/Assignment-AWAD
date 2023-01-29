@@ -194,3 +194,42 @@
 .form a:hover{
   color: red;
 }
+
+/********************************************************************888
+**************    TRAVEL NAVIGATION BAR   ***************************************************/
+.travel-nav{
+  list-style: none;
+  font-size: 23px;
+  margin-top: 5rem;
+}
+.travel-nav__item{
+  position: relative;
+  margin-bottom: 0.5rem;
+
+}
+.travel-nav__item::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  background-color: var(--colour-grey-light);
+  height: 100%;
+  transform: scaleY(0);
+  transition: transform 0.3s;
+
+}
+.travel-nav__item:hover::before{
+  transform: scaleY(1);
+
+}
+.travel-nav__link{
+color: var(--colour-grey-light);
+text-decoration: none;
+padding: 1.3rem 2rem;
+display: block;
+}
+.travel-nav__icon{
+  margin-right: 2rem;
+
+}
