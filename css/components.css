@@ -365,3 +365,10 @@ display: block;
   background: var(--color);
   color: #fff;
 }
+
+/********************************************************************8
+******* KEYNOTE MEMEBER PIC  **************/
+.Keynote-member-pic{
+  border-radius: 50%;
+  width: 15rem;
+}
