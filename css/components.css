@@ -118,8 +118,8 @@
   }
 
   .line-2{
-    height: 8px;
-    background: black;
+    height: 20px;
+    background: rgb(255, 255, 255);
    
   }
   .line-3{
@@ -137,7 +137,7 @@
     
   }
 /*************************************************************
-* PICTURE OF MEMEBERS  */
+* PICTURE OF MEMBERS  */
   .picture{
     display: flex;
     justify-content: center;
@@ -146,14 +146,43 @@
     
   }
   .Member-pic{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 0px 10px 30px 20px;
-    border: 3px solid #555;
-    border-radius: 30%;
+    --b: 8px;  /* border thickness*/
+    --s: 60px; /* size of the corner*/
+    --g: 14px; /* the gap*/
+    --c: rgb(6, 46, 92); 
     
-    
-}
+    padding: calc(var(--b) + var(--g));
+    background-image:
+      conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+      conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+    background-position:
+      var(--_p,0%) var(--_p,0%),
+      calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+    background-size: var(--s) var(--s);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 
+      background-position .3s var(--_i,.3s), 
+      background-size .3s calc(.3s - var(--_i,.3s));
+  }
+  img.alt {
+    background-image:
+      conic-gradient(from 180deg at top    var(--b) right var(--b),#0000 25%,var(--c) 0),
+      conic-gradient(from   0deg at bottom var(--b) left  var(--b),#0000 25%,var(--c) 0);
+    background-position:
+      calc(100% - var(--_p,0%)) var(--_p,0%),
+      var(--_p,0%) calc(100% - var(--_p,0%));
+  }
+  img:hover {
+    background-size: calc(100% - var(--g)) calc(100% - var(--g));
+    --_p: calc(var(--g)/2);
+    --_i: 0s;
+  }
+  
+
 
 /********************************************************
 *  Book picture  */
@@ -173,33 +202,6 @@
   color: var(--colour-grey-dark);
 }
 
-/********************************************************
-*    Pagination links */
-
-.pagination{
-  display: inline-block;
-  
-
-}
-.pagination a {
-    color: black;
-    float: left;
-    padding: 8px 16px;
-    text-decoration: none;
-    transition: background-color .3s;
-    border: 1px solid #ddd;
-    margin: 0 5px;
-  }
-  
-  /* Style the active/current link */
-  .pagination a.active {
-    background-color: var(--colour-primary);
-    color: white;
-  }
-  
-  /* Add a light blue background color on mouse-over */
-  .pagination a:hover:not(.active) {
-    background-color: rgb(108, 210, 241);}
 
   /**************************************************************888
   *  Videos on homepage  */
