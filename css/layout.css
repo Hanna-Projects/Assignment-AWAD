@@ -246,6 +246,30 @@ p{
     font-size: 18px;
 }
 
+/*************************************************************88888
+*********** Venue page **********************************/
+.venue-details{
+    background-color: rgb(200, 243, 243);
+}
+
+.venue-information{
+    padding: 3rem;
+}
+
+.venue-information h1{
+    padding: 2rem;
+}
+.venue-information p{
+    color: var(--colour-grey-dark);
+    font-size: 18px;
+    padding: 2rem;
+    text-align: left;
+}
+.venue-information h2{
+    font-size: 22px;
+    text-transform: uppercase;
+    padding: 2rem;
+}
 /********************************************************************
 **********   Video Container ******************************/
 .media-container{
