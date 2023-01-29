@@ -123,7 +123,10 @@
    
   }
   .line-3{
- 
+
+ height: 1px;
+    background: black;
+    width: 30%;
 
   }
   .line-4{
@@ -279,10 +282,10 @@
 **************    TRAVEL NAVIGATION BAR   ***************************************************/
 .travel-nav{
   list-style: none;
-  font-size: 23px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
-  box-shadow: 0px 15px 20px black;
+  box-shadow: 0px 15px 20px #727070;
 
 }
 .travel-nav__item{

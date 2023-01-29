@@ -220,17 +220,30 @@ p{
 **** TRavel page  **/
 .content-3 .main-travel{
     display: flex;
-    height: 70rem;
+    height: auto;
     flex-direction: column;
 }
 
-.sidebar-travel{
-    background-color: var(--colour-blue-light-1);
+.navbar-travel{
+    background-color: rgb(167, 172, 171);  
   
 }
 .travel-details{
-    background-color: rgb(236, 187, 187);
+    background-color: rgb(220, 234, 250);
 
+}
+.travel-information{
+    padding: 3rem;
+}
+.travel-information h1{
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.travel-information p{
+    padding: 1rem;
+    text-align: left;
+    color: black;
+    font-size: 18px;
 }
 
 /********************************************************************
