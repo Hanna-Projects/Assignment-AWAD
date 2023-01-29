@@ -200,7 +200,10 @@
 .travel-nav{
   list-style: none;
   font-size: 23px;
-  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 15px 20px black;
+
 }
 .travel-nav__item{
   position: relative;
@@ -213,7 +216,7 @@
   top: 0;
   left: 0;
   width: 10px;
-  background-color: var(--colour-grey-light);
+  background-color: white;
   height: 100%;
   transform: scaleY(0);
   transition: transform 0.3s;
@@ -224,7 +227,7 @@
 
 }
 .travel-nav__link{
-color: var(--colour-grey-light);
+color: white;
 text-decoration: none;
 padding: 1.3rem 2rem;
 display: block;
@@ -232,4 +235,11 @@ display: block;
 .travel-nav__icon{
   margin-right: 2rem;
 
+}
+
+/***********************************************************************
+*************  Venue page ********************************************/
+.venue-pic{
+  width: 115rem;
+  height: 20rem;
 }

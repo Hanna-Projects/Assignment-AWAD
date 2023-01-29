@@ -192,17 +192,37 @@ p{
 **** TRavel page  **/
 .content-3 .main-travel{
     display: flex;
-    height: 50rem;
+    height: 70rem;
+    flex-direction: column;
 }
 
 .sidebar-travel{
     background-color: var(--colour-blue-light-1);
-   flex: 0 0 20%;
+  
 }
 .travel-details{
-    background-color: rgb(252, 252, 252);
-    flex: 1;
+    background-color: rgb(236, 187, 187);
+
 }
+
+/********************************************************************
+**********   Video Container ******************************/
+.media-container{
+    height: 20rem;
+    background-color: blueviolet;
+    display: flex;
+}
+.back-video{
+    right: 0; 
+    bottom: 0;
+    width: auto; 
+    height: 20rem; 
+}
+.media-container img{
+    width: 40rem;
+    height: 20rem;
+}
+
 /*******************************************************************88
 ******************************************************************************
 **** LOGIN page *****/
