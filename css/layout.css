@@ -435,12 +435,18 @@ p{
     background-color:rgb(124, 242, 255); ;
 }
 .accommodation-details{
-    background-color: rgb(124, 242, 255);
+    background-color: rgb(255, 255, 255);
 }
 .accommodation-info{
     padding: 3rem;
 }
 .accommodation-info h1{
+    padding: 2rem;
+}
+.accommodation-description p{
+    font-size: 18px;
+    color: black;
+    text-align: left;
     padding: 2rem;
 }
 .content-booking{
@@ -464,7 +470,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(233, 233, 233);
     width: 900px;
     height: 300px;
     border-radius: 10px;
@@ -492,6 +498,7 @@ p{
 .summary-stars{
     color: var(--colour-blue-light-2);
 }
+
 
 .booking-button {
   background-color: #13a5aa;
