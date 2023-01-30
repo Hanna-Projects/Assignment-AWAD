@@ -337,7 +337,7 @@ p{
 **********   Video Container ******************************/
 .media-container{
     height: 20rem;
-    background-color: blueviolet;
+    background-color: rgb(255, 254, 255);
     display: flex;
 }
 .back-video{
@@ -353,13 +353,29 @@ p{
  /*********************************************************
  ********** Sightseeing page ********************/
  .site-details{
-    background-color: rgb(245, 245, 255);
+    background-color: rgb(255, 255, 255);
  }
+
 /*******************************************************************88
 ******************************************************************************
 **** LOGIN page *****/
 .sign-in{
     background-color: antiquewhite;
+}
+.site-image{
+    width: 29rem;
+    height: 20rem;
+    border-top-left-radius: 20px;
+
+    border-top-right-radius:20px;
+        
+
+
+
+        
+
+
+
 }
 
 /**************************************************************88
