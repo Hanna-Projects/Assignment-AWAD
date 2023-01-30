@@ -195,7 +195,6 @@ p{
 }
 .main-keynote{
     width: 100%;
-    
     height: auto;
     background-color: white;
     background-repeat: no-repeat;
@@ -429,3 +428,101 @@ p{
         
      }
     }
+
+/****************************************************************
+******* Accommodation page *****************/
+.content-4{
+    background-color:rgb(124, 242, 255); ;
+}
+.accommodation-details{
+    background-color: rgb(124, 242, 255);
+}
+.accommodation-info{
+    padding: 3rem;
+}
+.accommodation-info h1{
+    padding: 2rem;
+}
+.content-booking{
+    
+}
+.container-booking{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    flex-direction: column;
+    
+}
+
+.booking-section{
+    display: flex;
+    justify-content: space-between;
+}
+.booking-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.booking-details img{
+    width: 25rem;
+    height: 25rem;
+    background: no-repeat center cover;
+    padding: 1rem;
+    object-fit: cover;
+    transition: all .3s;
+
+}
+.booking-details img:hover{
+    width: 28rem;
+    height: 28rem;
+}
+.booking-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-stars{
+    color: var(--colour-blue-light-2);
+}
+
+.booking-button {
+  background-color: #13a5aa;
+  border: 1px solid #13a0aa;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 15rem;
+}
+
+.booking-button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 5px 10px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .booking-button {
+    padding: 10px 30px;
+  }
+}

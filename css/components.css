@@ -148,6 +148,12 @@
     background: black;
     width: 30%;
   }
+
+  .line-7{
+    height: 1px;
+    background: black;
+    width: 30%;
+  }
 /*************************************************************
 * PICTURE OF MEMBERS  */
   .picture{
@@ -432,8 +438,6 @@ display: block;
   touch-action: manipulation;
  
 }
-
-
 
 .site-button:hover {
   box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
