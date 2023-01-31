@@ -513,12 +513,12 @@ p {
 }
 
 .navbar-travel {
-    background-color: rgb(201, 202, 202);
+    background-color: rgb(160, 160, 160);
 
 }
 
 .travel-details {
-    background-color: rgb(220, 234, 250);
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -557,7 +557,7 @@ p {
 /*************************************************************88888
 *********** Venue page **********************************/
 .venue-details {
-    background-color: rgb(205, 214, 214);
+    background-color: rgb(255, 255, 255);
 }
 
 .venue-information {
