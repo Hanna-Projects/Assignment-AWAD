@@ -265,7 +265,7 @@
   width: 70%;
 }
 
-#submit{
+.login-button{
   padding: 12px 30px;
   width: 40%;
   margin-top: 40px;
@@ -277,7 +277,7 @@
   border-radius: 20px;
 }
 
-#submit:hover{
+.login-button:hover{
   cursor: pointer;
   background-color: black;
 }

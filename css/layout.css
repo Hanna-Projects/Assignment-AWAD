@@ -679,7 +679,7 @@ p {
 
 .container-login {
     display: flex;
-    height: 500px;
+    height: auto;
     width: 800px;
     margin: auto;
     margin-top: 50px;
