@@ -247,6 +247,7 @@
   width: 50%;
   align-items: center;
   background-color: var(--colour-blue-light-2);
+
   
 
 }
@@ -254,21 +255,21 @@
   padding: 12px;
   width: 65%;
   margin: 15px;
-  border: 1px solid black;
+  border: 3px solid white;
   outline: none;
   border-radius: 20px;
   transition: all .3s;
 
 }
 .box:focus{
-  width: 75%;
+  width: 70%;
 }
 
 #submit{
   padding: 12px 30px;
   width: 40%;
   margin-top: 40px;
-  background-color: black;
+  background-color: var(--colour-grey-light);
   color: white;
   font-weight: bold;
   border: none;
@@ -278,7 +279,7 @@
 
 #submit:hover{
   cursor: pointer;
-  background-color: var(--colour-grey-light);
+  background-color: black;
 }
 
 .form a{
