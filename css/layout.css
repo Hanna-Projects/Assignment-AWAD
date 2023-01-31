@@ -381,6 +381,7 @@ p {
 .keynote-details__heading h1 {
     color: black;
     padding: 3rem;
+    text-transform: uppercase;
 }
 
 .container-keynote {
@@ -388,8 +389,9 @@ p {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    background-color: var(--colour-primary);
+    background-color: rgb(156, 156, 156);
     flex-direction: column;
+    border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px;
 
 }
@@ -425,33 +427,7 @@ p {
     letter-spacing: 0.1rem;
 }
 
-.keynote-button {
-    background-color: var(--colour-grey-light);
-    border: 1px solid #13a0aa;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    outline: none;
-    outline: 0;
-    padding: 10px 25px;
-    text-align: center;
-    transform: translateY(0);
-    transition: transform 150ms, box-shadow 150ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 15rem;
-}
 
-.keynote-button:hover {
-    box-shadow: rgba(0, 0, 0, .15) 0 5px 10px 0;
-    transform: translateY(-2px);
-}
 
 @media (min-width: 768px) {
     .keynote-button {
@@ -595,25 +571,6 @@ p {
 
 }
 
-/********************************************************************
-**********   Video Container ******************************/
-.media-container {
-    height: 20rem;
-    background-color: rgb(255, 254, 255);
-    display: flex;
-}
-
-.back-video {
-    right: 0;
-    bottom: 0;
-    width: auto;
-    height: 20rem;
-}
-
-.media-container img {
-    width: 40rem;
-    height: 20rem;
-}
 
 /*********************************************************
  ********** Sightseeing page ********************/
@@ -728,8 +685,6 @@ p {
 
 }
 
-/************************************************************************
-*  Media Responsive  */
 
 
 /****************************************************************
@@ -785,56 +740,9 @@ p {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-.booking-details img {
-    width: 25rem;
-    height: 25rem;
-    background: no-repeat center cover;
-    padding: 1rem;
-    object-fit: cover;
-    transition: all .3s;
-
-}
-
-.booking-details img:hover {
-    width: 28rem;
-    height: 28rem;
-}
 
 .booking-description {
     display: flex;
     flex-direction: column;
-}
-
-.summary-stars {
-    color: var(--colour-blue-light-2);
-}
-
-
-.booking-button {
-    background-color: #13a5aa;
-    border: 1px solid #13a0aa;
-    border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    outline: none;
-    outline: 0;
-    padding: 10px 25px;
-    text-align: center;
-    transform: translateY(0);
-    transition: transform 150ms, box-shadow 150ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 15rem;
-}
-
-.booking-button:hover {
-    box-shadow: rgba(0, 0, 0, .15) 0 5px 10px 0;
-    transform: translateY(-2px);
 }
 

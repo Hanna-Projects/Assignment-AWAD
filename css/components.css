@@ -238,8 +238,39 @@
 .youtube-video{
   border: 4px solid white;
 }
+
+/*****************************************************************
+********** Keynote button ****************************************/
+.keynote-button {
+  background-color: #13a5aa;
+  border: 1px solid #13a0aa;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 15rem;
+  margin: 1rem;
+}
+
+.keynote-button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 5px 10px 0;
+  transform: translateY(-2px);
+}
   /************************************************************88
-** Login form **/
+** Login form  and sign up**/
 .form{
   font-family: inherit;
   display: flex;
@@ -359,8 +390,25 @@ display: block;
     box-shadow: rgba(0, 0, 0, .15) 0 5px 10px 0;
     transform: translateY(-2px);
 }
-/********************************************************************8
-******* KEYNOTE MEMEBER PIC  **************/
+/********************************************************************
+**********   Video Container ******************************/
+.media-container {
+  height: 20rem;
+  background-color: rgb(255, 254, 255);
+  display: flex;
+}
+
+.back-video {
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: 20rem;
+}
+
+.media-container img {
+  width: 40rem;
+  height: 20rem;
+}
 
 
 /*************************************************************8
@@ -435,3 +483,54 @@ display: block;
     padding: 10px 30px;
   }
 }
+
+/********************************************************************
+*********** Accomodation components , button images *********************/
+.summary-stars {
+  color: var(--colour-blue-light-2);
+}
+
+
+.booking-button {
+  background-color: #13a5aa;
+  border: 1px solid #13a0aa;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 15rem;
+}
+
+.booking-button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 5px 10px 0;
+  transform: translateY(-2px);
+}
+.booking-details img {
+  width: 25rem;
+  height: 25rem;
+  background: no-repeat center cover;
+  padding: 1rem;
+  object-fit: cover;
+  transition: all .3s;
+
+}
+
+.booking-details img:hover {
+  width: 28rem;
+  height: 28rem;
+}
+
+
