@@ -46,6 +46,7 @@ p{
 
 @media (max-width: 800px){
     .header{
+        
         height: 35rem;
         background-color: var(--colour-primary);
     }
@@ -465,6 +466,21 @@ padding: 2rem;
     color: black;
     font-size: 18px;
 }
+.travel-information li{
+    font-size: 18px;
+    
+}
+
+@media (max-width:750px){
+    .travel-information li{
+        width: 30%;
+    }
+
+    .travel-information h1{
+        width: 30%;
+    }
+
+}
 
 /*************************************************************88888
 *********** Venue page **********************************/
@@ -519,6 +535,32 @@ padding: 2rem;
 
     border-top-right-radius:20px;
 
+
+}
+
+@media(max-width:750px){
+    .site-details .media-container{
+        height: 15rem;
+
+    }
+    .media-container img{
+        width: 14rem;
+        height: 10rem;
+        transition: .4s;
+    }
+    .media-container .back-video{
+        height: 10rem;
+    }
+
+    .navbar-travel{
+        width: 40rem;
+        transition: .3s;
+        
+    }
+    .container-sightseeing{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
