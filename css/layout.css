@@ -179,6 +179,7 @@ p{
     text-align: center;
     color: white;
     height: 3rem;
+    padding: 1rem;
 }
 /**********************************************************************
 *  Information where the videos are found  */
@@ -195,10 +196,14 @@ p{
 }
 .main-keynote{
     width: 100%;
-    height: auto;
     background-color: white;
     background-repeat: no-repeat;
     
+
+}
+.keynote-details{
+    height: auto;
+    padding: 2rem;
 
 }
 .keynote-details__heading h1{
@@ -210,10 +215,9 @@ p{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 3rem;
-    background-color: var(--colour-grey-light);
+    background-color: var(--colour-primary);
     flex-direction: column;
-    box-shadow: 15px 15px 20px rgb(49, 46, 46);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px;
 
 }
 
@@ -237,45 +241,71 @@ p{
     object-fit: cover;
 }
 
+.profile p{
+    text-align: left;
+    
+}
+
 .profile, .text{
     margin: 0 1rem;
     letter-spacing: 0.1rem;
 }
 
 .keynote-button{
-    font-size: 20px;
-  font-weight: 200;
-  letter-spacing: 1px;
-  padding: 13px 50px 13px;
-  outline: 0;
-  border: 1px solid black;
+    background-color: var(--colour-grey-light);
+  border: 1px solid #13a0aa;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
-  position: relative;
-  background-color: rgba(57, 247, 231, 0);
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
   width: 15rem;
-  
 }
 
-
-.keynote-button:after{
-    content: "";
-  background-color: #dcbaff;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
+.keynote-button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 5px 10px 0;
+  transform: translateY(-2px);
 }
-
-
 
 @media (min-width: 768px) {
   .keynote-button {
-    padding: 16px 32px;
+    padding: 10px 30px;
   }
 }
 
+.keynote-details__information p{
+    text-align: left;
+    padding: 1rem;
+}
+
+.speaker-plenary h1{
+color: white;
+padding: 2rem;
+}
+
+.speaker-plenary hr{
+    background-color: white;
+    width: 100%;
+} .speaker h1{
+    color: white;
+    padding: 2rem;
+}
+ .speaker hr{
+    background-color: white;
+    width: 100%;
+ }
 
 /********************************************************************8
 ***************************************************************************88
@@ -287,7 +317,7 @@ p{
 }
 
 .navbar-travel{
-    background-color: rgb(167, 172, 171);  
+    background-color: rgb(201, 202, 202);  
   
 }
 .travel-details{

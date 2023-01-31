@@ -294,7 +294,7 @@
 **************    TRAVEL NAVIGATION BAR   ***************************************************/
 .travel-nav{
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   box-shadow: 0px 15px 20px #727070;
